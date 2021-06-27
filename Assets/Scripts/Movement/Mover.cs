@@ -8,6 +8,13 @@ namespace RPG.Movement
     {
         [SerializeField] Transform target;
 
+        NavMeshAgent navMeshAgent;
+
+        private void Start()
+        {
+            navMeshAgent = GetComponent<NavMeshAgent>();
+        }
+
         void Update()
         {
             UpdateAnimator();
@@ -15,7 +22,7 @@ namespace RPG.Movement
 
         private void UpdateAnimator()
         {
-            Vector3 velocity = GetComponent<NavMeshAgent>().velocity;
+            Vector3 velocity = navMeshAgent.velocity;
             Vector3 localVel = transform.InverseTransformDirection(velocity);
             float speed = localVel.z;
             GetComponent<Animator>().SetFloat("ForwardSpeed", speed);
@@ -23,7 +30,13 @@ namespace RPG.Movement
 
         public void MoveTo(Vector3 destination)
         {
-            GetComponent<NavMeshAgent>().destination = destination;
+            navMeshAgent.destination = destination;
+            navMeshAgent.isStopped = false;
+        }
+
+        public void Stop()
+        {
+            navMeshAgent.isStopped = true;
         }
     }
 }
