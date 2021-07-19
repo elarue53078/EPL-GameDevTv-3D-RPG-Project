@@ -1,7 +1,7 @@
 Using pre-set license
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
@@ -12,230 +12,66 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57606
+51433
 Successfully changed project path to: /Users/ericlarue/Dropbox/Unity Tutorial Projects/EPL-GameDevTv-3D-RPG-Project
 /Users/ericlarue/Dropbox/Unity Tutorial Projects/EPL-GameDevTv-3D-RPG-Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 90.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.13f1 (71691879b7f5)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/ericlarue/Dropbox/Unity Tutorial Projects/EPL-GameDevTv-3D-RPG-Project/Assets
 GfxDevice: creating device client; threaded=0
-2021-07-13 23:50:09.244 Unity[93160:609923] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-07-13 23:50:09.244 Unity[93160:609923] Metal devices available: 1
-2021-07-13 23:50:09.244 Unity[93160:609923] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-07-13 23:50:09.245 Unity[93160:609923] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-07-19 00:27:39.515 Unity[43526:1766392] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-07-19 00:27:39.515 Unity[43526:1766392] Metal devices available: 1
+2021-07-19 00:27:39.515 Unity[43526:1766392] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2021-07-19 00:27:39.517 Unity[43526:1766392] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56526
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.13f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.13f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001294 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.14f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010740 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 397.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.381 seconds
+- Completed reload, in 21.516 seconds
+Domain Reload Profiling:
+	ReloadAssembly (21517ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (7264ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2409ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (679ms)
+			SetupLoadedEditorAssemblies (3260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (398ms)
+				BeforeProcessingInitializeOnLoad (529ms)
+				ProcessInitializeOnLoadAttributes (2006ms)
+				ProcessInitializeOnLoadMethodAttributes (285ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003538 seconds.
+Registered in 0.023826 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.321 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.3 MB.
-System memory in use after: 150.4 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1850.
-Total: 1.921405 ms (FindLiveObjects: 0.173315 ms CreateObjectMapping: 0.046062 ms MarkObjects: 1.631015 ms  DeleteObjects: 0.070030 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Game/Characters/Player.prefab
-  artifactKey: Guid(590c19af0a4e248ff85c4fabd28a32d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Characters/Player.prefab using Guid(590c19af0a4e248ff85c4fabd28a32d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3a30dbadd31616af64406fa00a8c47') in 0.581272 seconds 
-  Import took 0.585611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Game/Characters/Target.prefab
-  artifactKey: Guid(83624fb55d1cf48119ea4d6b0f790e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Characters/Target.prefab using Guid(83624fb55d1cf48119ea4d6b0f790e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2f12b2b41f8e4dfe89fce1923fc717') in 0.011909 seconds 
-  Import took 0.014960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Game/Characters/Character.prefab
-  artifactKey: Guid(2de472ff2eb5b4da7b021e69724b9895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Characters/Character.prefab using Guid(2de472ff2eb5b4da7b021e69724b9895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dff9c0c6c100bb679bfda6ec96376f6') in 0.003319 seconds 
-  Import took 0.006140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Game/Characters/Enemy.prefab
-  artifactKey: Guid(caf05d31f715b4d348e5b2f5909fec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Characters/Enemy.prefab using Guid(caf05d31f715b4d348e5b2f5909fec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ad40eeb8ed1749dbf41ae2d078d7c4') in 0.067807 seconds 
-  Import took 0.072377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.467352 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Black.mat
-  artifactKey: Guid(01b2546c969fe814794af634cb4534f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Black.mat using Guid(01b2546c969fe814794af634cb4534f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a460614a629ea8bb37649aa06f3d8b08') in 0.212657 seconds 
-  Import took 0.216035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Orange.mat
-  artifactKey: Guid(78be5954566d2d848918e51832341fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Orange.mat using Guid(78be5954566d2d848918e51832341fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf354de3cc0f9f80ffdb568f9b594f2') in 0.010042 seconds 
-  Import took 0.013283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Texture_01_Vikings.mat
-  artifactKey: Guid(bfe22610a21f6e3499d2fa2db4494a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Texture_01_Vikings.mat using Guid(bfe22610a21f6e3499d2fa2db4494a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe5032c06d42e351ca663386472f1d9') in 0.014285 seconds 
-  Import took 0.018497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01.mat
-  artifactKey: Guid(fa8eda4ec55ee1a4e99ca991c5828dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_01.mat using Guid(fa8eda4ec55ee1a4e99ca991c5828dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f835a472fd6f6bdd52777455b5ae78f') in 0.015943 seconds 
-  Import took 0.019585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolygonSamurai_Tex_01.mat
-  artifactKey: Guid(033436eda3ed8e04a8cfafa21edb958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolygonSamurai_Tex_01.mat using Guid(033436eda3ed8e04a8cfafa21edb958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1e8d2d5bf82e57024a78cf8a779e2d') in 0.017192 seconds 
-  Import took 0.020443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Blue.mat
-  artifactKey: Guid(3f6fc0cf5e5d31c458bc74ede87cb8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Blue.mat using Guid(3f6fc0cf5e5d31c458bc74ede87cb8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4529da1288db61eb2b135ab8945743') in 0.012938 seconds 
-  Import took 0.016045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Mat_01.mat
-  artifactKey: Guid(31b16fd87cf33014c946e9d512d1e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Mat_01.mat using Guid(31b16fd87cf33014c946e9d512d1e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63ba3dd5e8104d0323164ac618b1a4d') in 0.013212 seconds 
-  Import took 0.015993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureTexture_01.mat
-  artifactKey: Guid(bf3095d4f54d0e8479e4493a6b87ddc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureTexture_01.mat using Guid(bf3095d4f54d0e8479e4493a6b87ddc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92b0fdfe227115970f4848672c46fad') in 0.009263 seconds 
-  Import took 0.012095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Black.mat
-  artifactKey: Guid(ccae2dc6cf6f0c4479b782fedd0c8172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Black.mat using Guid(ccae2dc6cf6f0c4479b782fedd0c8172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394a38824b51c7e60934d1a454e7e13a') in 0.008420 seconds 
-  Import took 0.011164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Orange.mat
-  artifactKey: Guid(75a95c1a6b684504c93637e35347c475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyKnights_Character_Mat_Orange.mat using Guid(75a95c1a6b684504c93637e35347c475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2003be2cd5a0ba329a4dddd1034966f1') in 0.010538 seconds 
-  Import took 0.015044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000688 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Texture_01.mat
-  artifactKey: Guid(2658f55e20ebd064cb38049d0de94568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Texture_01.mat using Guid(2658f55e20ebd064cb38049d0de94568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241e0d8568d55d12a425daddffb2fa65') in 0.034502 seconds 
-  Import took 0.038491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Red.mat
-  artifactKey: Guid(bfbe2e8b331e2cc42be1591f949c0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/Characters_Texture_Red.mat using Guid(bfbe2e8b331e2cc42be1591f949c0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f466d1c3329926a5d74a1c9c8419ee6') in 0.022168 seconds 
-  Import took 0.025859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000870 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Fire_FX.mat
-  artifactKey: Guid(e8bc6160ccf0e9b4e950bcb511403374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Fire_FX.mat using Guid(e8bc6160ccf0e9b4e950bcb511403374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e606beb5156d032e120aa3e971b904') in 0.246408 seconds 
-  Import took 0.250541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_Water_01.mat
-  artifactKey: Guid(9045494f93452344d811e0d183904816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyAdventureMaterial_Water_01.mat using Guid(9045494f93452344d811e0d183904816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfed894ecb888c5eee6c6557641071e') in 0.023380 seconds 
-  Import took 0.026942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Material_01.mat
-  artifactKey: Guid(eb83b2b658dfc194e8b26c4421e3c748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolyVikings_Material_01.mat using Guid(eb83b2b658dfc194e8b26c4421e3c748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225653ac7ceb549feddc8fef854b92aa') in 0.015368 seconds 
-  Import took 0.019079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000686 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolygonSamurai_Mat_01.mat
-  artifactKey: Guid(4eaaa3032586832468e97a6452e498a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Materials/PolygonSamurai_Mat_01.mat using Guid(4eaaa3032586832468e97a6452e498a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c47de94d41bf7c3b994b47c3ead79e') in 0.011816 seconds 
-  Import took 0.016556 seconds .
-

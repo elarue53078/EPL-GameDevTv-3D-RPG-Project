@@ -53,6 +53,19 @@ MonoBehaviour:
   weaponRange: 2
   timeBetweenAttacks: 1
   weaponDamage: 5
+--- !u!114 &-3394212894262316099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7971816959990817880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5455d9d5faae94dbc9464f77ce7adb58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chaseDistance: 5
 --- !u!1001 &493035958327108585
 PrefabInstance:
   m_ObjectHideFlags: 0

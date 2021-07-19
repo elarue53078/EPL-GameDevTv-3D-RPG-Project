@@ -73,7 +73,6 @@ namespace RPG.Combat
         public void Attack(CombatTarget combatTarget)
         {
             target = combatTarget.GetComponent<Health>();
-            print("Where's my money, bitch!?");
             GetComponent<ActionScheduler>().StartAction(this);
         }
 
