@@ -2105,6 +2105,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3394212894262316099, guid: caf05d31f715b4d348e5b2f5909fec25, type: 3}
+      propertyPath: patrolPath
+      value: 
+      objectReference: {fileID: 1295777206}
+    - target: {fileID: -3394212894262316099, guid: caf05d31f715b4d348e5b2f5909fec25, type: 3}
+      propertyPath: suspicionTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -3394212894262316099, guid: caf05d31f715b4d348e5b2f5909fec25, type: 3}
+      propertyPath: waypointTolerance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 493035959710269106, guid: caf05d31f715b4d348e5b2f5909fec25, type: 3}
       propertyPath: m_Speed
       value: 3
@@ -2564,7 +2576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114372266}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.29, y: 0, z: 3.95}
+  m_LocalPosition: {x: -12.66, y: 0, z: 3.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1295777207}
