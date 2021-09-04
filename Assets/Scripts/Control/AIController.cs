@@ -89,7 +89,6 @@ namespace RPG.Control
         private bool AtWaypoint()
         {
             float distanceToWaypoint = Vector3.Distance(transform.position, GetCurrentWaypoint());
-            print("Current distance to waypoint is: " + distanceToWaypoint);
             return distanceToWaypoint < waypointTolerance;
         }
 
