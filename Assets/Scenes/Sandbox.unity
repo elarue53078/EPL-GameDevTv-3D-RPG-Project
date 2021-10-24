@@ -1849,7 +1849,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 951906069}
-  m_LocalRotation: {x: 0.076631635, y: 0.14638507, z: -0.011374822, w: 0.9861895}
+  m_LocalRotation: {x: 0.0766316, y: 0.14638509, z: -0.011374817, w: 0.9861895}
   m_LocalPosition: {x: -20.203453, y: -12.30249, z: 4.364196}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2288,25 +2288,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 590c19af0a4e248ff85c4fabd28a32d1, type: 3}
---- !u!1 &1172001820 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2272226273353911889, guid: 590c19af0a4e248ff85c4fabd28a32d1, type: 3}
-  m_PrefabInstance: {fileID: 1172001819}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &1172001821
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172001820}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1.5
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1182366190
 PrefabInstance:
   m_ObjectHideFlags: 0
