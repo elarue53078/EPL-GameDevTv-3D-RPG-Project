@@ -19,6 +19,8 @@ namespace RPG.SceneManagement
         [SerializeField] float fadeTime = 1f;
         [SerializeField] float fadeWaitTime = 1f;
 
+        SavingWrapper savingWrapper;
+
         private void OnTriggerEnter(Collider other)
         {
             print("Portal triggered.");
@@ -30,6 +32,8 @@ namespace RPG.SceneManagement
 
         private IEnumerator Transition()
         {
+            savingWrapper = FindObjectOfType<SavingWrapper>();
+
             if (sceneToLoad < 0)
             {
                 Debug.LogError("Scene to load not set.");
@@ -37,13 +41,18 @@ namespace RPG.SceneManagement
             }
 
             DontDestroyOnLoad(gameObject);
+
             Fader fader = FindObjectOfType<Fader>();
             
             yield return fader.FadeOut(fadeTime);
+            savingWrapper.Save();
             yield return SceneManager.LoadSceneAsync(sceneToLoad);
+            savingWrapper.Load();
 
             Portal otherPortal = GetOtherPortal();
             UpdatePlayer(otherPortal);
+
+            savingWrapper.Save();
 
             yield return new WaitForSeconds(fadeWaitTime);
             yield return fader.FadeIn(fadeTime);
